@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/search.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <title>Photo Phaty</title>
+</head>
+<body>
+
+    
+    <header class="header-section">
+        <div class="header-content">
+            <h1 class="logo">PHOTOPATHY</h1>
+            <p class="sub-line">El mejor sitio web de imagenes gratis</p>
+        
+            <form action="search.html">
+                <input type="text" autocomplete="off" name="search" class="search-box" placeholder="Buscar">
+                <button class="search-btn" type="submit">buscar</button>
+            </form>
+        </div>
+    </header>
+
+    <div class="image-popup hide">
+        <button class="close-btn">x</button>
+        <a href="#" class="download-btn"> Descargar imagen</a>
+        <img src="./img/img4.png" class="img-modal" alt="">
+        <button class="controls pre-btn"><img src="img/pre.png" alt=""></button>
+        <button class="controls nxt-btn"><img src="img/nxt.png" alt=""></button>
+
+    </div>
+   
+    <section class="galeria"></section>
+
+    <script src="main.js"></script>
+</body>
+</html>
